@@ -1,0 +1,216 @@
+input{
+    margin-top: 20px;
+    margin-left: 1684px;
+    transition: width 0.4s ease-in-out;
+    font-family: 'Encode Sans', sans-serif;
+    
+}
+#i1{
+    width: 7%;
+    height: 144px;
+    margin-left: 35px;
+    margin-top: -39px;
+}
+#p1{
+    color: rgb(45, 138, 175);
+    margin-top: -15px;
+    margin-left: 55px;
+    font-family: 'Encode Sans', sans-serif;
+}
+a{
+    margin-left: 212px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Encode Sans', sans-serif;
+}
+nav{
+    margin-top: -40px;
+  
+}
+nav a:hover{
+    color:rgb(77, 151, 185) ;
+    text-decoration: underline;
+    text-shadow: 20px;
+}
+    .d1{
+        width: 100%;
+        height: 800px;
+        background-color: transparent;
+        border: 1px solid #a6abad;
+         perspective: 1000px;
+         border-radius: 25px; 
+    }
+    #i2{
+        width: 100%;
+        height: 800px;;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 25px; 
+    }
+    h1{
+        margin-top: -757px;
+        margin-left: 1313px;
+        text-decoration: underline;
+        font-family: 'Encode Sans', sans-serif;
+    }
+    #p2{
+        padding-left: 1058px;
+        padding-right: 59px;
+        padding-top: 27px;
+        word-spacing: 10px;
+        text-align: justify;
+        font-size: larger;
+        font-family: 'Encode Sans', sans-serif;
+    }
+h2{
+    text-align: center;
+    color:  rgb(74, 147, 231);
+    text-transform: uppercase;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: xx-large;
+    text-decoration: underline  rgb(74, 147, 231);;
+    
+}
+#p3{
+    font-size: x-large;
+    text-align:justify;
+    font-family: 'Encode Sans', sans-serif;
+    padding: 30px;
+}
+#p4{
+    font-size: x-large;
+    text-align:justify;
+    font-family: 'Encode Sans', sans-serif;
+    padding: 30px;
+}
+.parent{
+    width:90%;
+    height: 390px;
+    border: 0px grey solid;
+    margin-left: 94px;
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#u5{
+    height: 355px;
+    width: 21%;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 18px;
+    background-color: #f0f4f5;
+}
+#i3{
+     border-radius:  64px;
+    object-fit: cover;
+    width: 70%;
+    height: 248px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#l1{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: larger ;
+    margin-left: 132px;
+}
+h3{
+    font-size: xx-large;
+    text-decoration: underline  rgb(74, 147, 231);;
+    font-family: 'Encode Sans', sans-serif;
+    margin-top: 0px;
+    margin-left: 788px;
+    color:  rgb(74, 147, 231);;
+}
+#u5:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container{
+    max-width: 100%;
+    background-color:rgb(78, 145, 233);
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    margin-left: -250px;
+    word-spacing: 0px;
+    list-style: none;
+}
+.footer{
+    background-color: rgb(74, 147, 231);
+    padding: 51px 120px;
+    margin-top: 57px;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    margin-left: 20px;
+
+
+}
+.sociallinks a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 7px;
+    background-color: #a6abad;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #064164;
+}
+.sociallinks a:hover{
+color: black;
+background-color: #ffffff;
+}
+.footer-col h4{
+    font-family: 'Encode Sans', sans-serif;
+    word-spacing: 0px;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: large;
+    text-transform: capitalize;
+    color: #f0e5e5;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000000;
+    display: block;
+}
+.footer-col ul li a:hover{
+    color: rgb(180, 161, 161);
+    padding-left: 8px;
+}
+#i5{
+    width: 7%;
+    height: 144px;
+    margin-top: -16px;
+    margin-left: 1541px;
+    border-radius: 50%;
+}
+#p5{
+    margin-top: 3px;
+    margin-left: 1550px;
+    font-family: 'Encode Sans', sans-serif;
+}
+@media (max-width:547px){
+    .footer-col{
+        width: 25%;
+        padding: 0 15px;
+        margin-left: 20px;}
+    }
